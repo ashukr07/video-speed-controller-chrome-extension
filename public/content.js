@@ -46,7 +46,7 @@ function createSpeedController(video) {
     increaseButton.style.cursor = "pointer";
   
     const updateSpeedDisplay = () => {
-      speedDisplay.textContent = `${video.playbackRate.toFixed(1)}x`;
+      speedDisplay.textContent = `${video.playbackRate.toFixed(2)}x`;
     };
     updateSpeedDisplay();
   
